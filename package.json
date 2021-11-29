@@ -1,0 +1,25 @@
+{
+  "name": "odin-restaurant",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SKC12/odin-restaurant.git"
+  },
+  "author": "SKC",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SKC12/odin-restaurant/issues"
+  },
+  "homepage": "https://github.com/SKC12/odin-restaurant#readme",
+  "devDependencies": {
+    "css-loader": "^6.5.1",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.64.4",
+    "webpack-cli": "^4.9.1"
+  }
+}

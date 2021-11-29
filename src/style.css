@@ -1,0 +1,127 @@
+#content{
+    display: flex;
+    flex-direction: column;
+}
+
+#top-bar{
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1%;
+    height: 5vh;
+    order:0;
+}
+
+.bar-button {
+    padding: 30px;
+}
+
+.bar-button:hover {
+    background-color: gray;
+    cursor: pointer;
+}
+
+#main-container{
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    order: 1;
+
+}
+
+#home{
+    background-color: gray;
+    width: 50vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    padding-bottom: 50px;
+}
+
+
+.item, .title{
+    width: 60%;
+    background-color: lightgray;
+    text-align: center;
+    padding: 10px;
+}
+
+.item {
+    line-height: 1.5em;
+    padding: 30px 10px;
+
+
+}
+
+.menu-list{
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.item-container{
+    display: flex;
+    border: 2px solid black;
+    width: 20vw;
+    min-height: 10vw;
+    gap: 10px    
+}
+
+.item-picture-placeholder{
+    background-color: lightgray;
+    display: flex;
+    width: 250px;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-desc-container{
+    padding: 5px;
+    width: 100%;
+}
+
+.item-name{
+    font-size: 14px;
+}
+
+.item-cost{
+    float: right;
+}
+
+.item-description{
+    font-size: 12px;
+    
+}
+
+.contact-list{
+    height: 100%;
+    width: calc(60% + 20px);
+    padding: 40px;
+}
+
+.contact-form{
+    padding: 10px 30px;
+    background-color: lightgray;
+}
+
+.title{
+    font-size: 34px;
+}
+
+
+#bottom-bar{
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 5vh;
+    order: 10;
+}
+
